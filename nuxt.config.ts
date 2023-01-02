@@ -18,5 +18,8 @@ export default defineNuxtConfig({
       css: [
         '@fortawesome/fontawesome-svg-core/styles.css'
       ],
-      app: { head: { link: [ {rel: 'icon', type: "image/x-icon", href: '/favicon.ico'} ] } }
+      app: { head: { link: [ {rel: 'icon', type: "image/x-icon", href: '/favicon.ico'} ] } },
+      image: {
+        provider: 'netlify'
+      }
 })
